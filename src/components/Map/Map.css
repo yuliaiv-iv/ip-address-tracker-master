@@ -1,0 +1,11 @@
+#mapid { 
+    height: 63vh;
+    position: relative;
+    z-index: -5;
+}
+
+@media screen and (max-width: 430px) {
+    #mapid {
+        height: 550px;
+    }
+}

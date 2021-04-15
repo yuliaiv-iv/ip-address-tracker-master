@@ -3,10 +3,11 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50%;
+  height: 35vh;
 }
 
 .header__section {
-  padding: 35px 0 130px;
+  padding: 35px 0 0;
   max-width: 1440px;
 }
 
@@ -15,4 +16,11 @@
   font-weight: 500;
   padding-bottom: 35px;
   text-align: center;
+}
+
+@media screen and (max-width: 980px) {
+  .header__title {
+    font-size: 28px;
+    padding-bottom: 20px;
+  }
 }
