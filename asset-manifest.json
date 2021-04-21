@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/ip-address-tracker-master/static/css/main.aa67a76d.chunk.css",
-    "main.js": "/ip-address-tracker-master/static/js/main.032c3337.chunk.js",
-    "main.js.map": "/ip-address-tracker-master/static/js/main.032c3337.chunk.js.map",
+    "main.css": "/ip-address-tracker-master/static/css/main.64f2cf24.chunk.css",
+    "main.js": "/ip-address-tracker-master/static/js/main.6ebaf016.chunk.js",
+    "main.js.map": "/ip-address-tracker-master/static/js/main.6ebaf016.chunk.js.map",
     "runtime-main.js": "/ip-address-tracker-master/static/js/runtime-main.f745dea6.js",
     "runtime-main.js.map": "/ip-address-tracker-master/static/js/runtime-main.f745dea6.js.map",
-    "static/js/2.3ba38ff6.chunk.js": "/ip-address-tracker-master/static/js/2.3ba38ff6.chunk.js",
-    "static/js/2.3ba38ff6.chunk.js.map": "/ip-address-tracker-master/static/js/2.3ba38ff6.chunk.js.map",
+    "static/js/2.6127851f.chunk.js": "/ip-address-tracker-master/static/js/2.6127851f.chunk.js",
+    "static/js/2.6127851f.chunk.js.map": "/ip-address-tracker-master/static/js/2.6127851f.chunk.js.map",
     "static/js/3.115a6f70.chunk.js": "/ip-address-tracker-master/static/js/3.115a6f70.chunk.js",
     "static/js/3.115a6f70.chunk.js.map": "/ip-address-tracker-master/static/js/3.115a6f70.chunk.js.map",
     "index.html": "/ip-address-tracker-master/index.html",
-    "static/css/main.aa67a76d.chunk.css.map": "/ip-address-tracker-master/static/css/main.aa67a76d.chunk.css.map",
-    "static/js/2.3ba38ff6.chunk.js.LICENSE.txt": "/ip-address-tracker-master/static/js/2.3ba38ff6.chunk.js.LICENSE.txt",
+    "static/css/main.64f2cf24.chunk.css.map": "/ip-address-tracker-master/static/css/main.64f2cf24.chunk.css.map",
+    "static/js/2.6127851f.chunk.js.LICENSE.txt": "/ip-address-tracker-master/static/js/2.6127851f.chunk.js.LICENSE.txt",
     "static/media/icon-arrow.2eaaa5ee.svg": "/ip-address-tracker-master/static/media/icon-arrow.2eaaa5ee.svg",
     "static/media/icon-location.7e6459d2.svg": "/ip-address-tracker-master/static/media/icon-location.7e6459d2.svg",
     "static/media/Header.css": "/ip-address-tracker-master/static/media/pattern-bg.a60a3c85.png"
   },
   "entrypoints": [
     "static/js/runtime-main.f745dea6.js",
-    "static/js/2.3ba38ff6.chunk.js",
-    "static/css/main.aa67a76d.chunk.css",
-    "static/js/main.032c3337.chunk.js"
+    "static/js/2.6127851f.chunk.js",
+    "static/css/main.64f2cf24.chunk.css",
+    "static/js/main.6ebaf016.chunk.js"
   ]
 }
