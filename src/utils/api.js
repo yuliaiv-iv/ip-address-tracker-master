@@ -1,7 +1,7 @@
-
+const key = process.env.REACT_APP_IP_ACCESS_KEY;
 
 export const getIp = (ip) => {
-  return fetch(`https://geo.ipify.org/api/v1?apiKey=at_rHuyiBj5EZCctq3a8RjpBuOrJs60m&ipAddress=${ip}`)
+  return fetch(`https://geo.ipify.org/api/v1?apiKey=at_${key}&ipAddress=${ip}`)
     .then((res) => {
       if (res.ok) {
           return res.json()
@@ -14,7 +14,7 @@ export const getIp = (ip) => {
 }
 
 export const getInitialIp = () => {
-  return fetch(`https://geo.ipify.org/api/v1?apiKey=at_rHuyiBj5EZCctq3a8RjpBuOrJs60m`)
+  return fetch(`https://geo.ipify.org/api/v1?apiKey=at_${key}`)
     .then((res) => {
       if (res.ok) {
           return res.json()

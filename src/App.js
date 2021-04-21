@@ -2,7 +2,6 @@ import { useState, useEffect } from "react";
 import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import IpInfo from "./components/IpInfo/IpInfo";
-import Loader from "./components/Loader/Loader";
 import Map from "./components/Map/Map";
 import * as api from './utils/api';
 

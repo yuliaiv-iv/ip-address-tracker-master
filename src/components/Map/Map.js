@@ -1,8 +1,18 @@
 import React from 'react';
-import { MapContainer, TileLayer, Marker, Popup, ZoomControl } from 'react-leaflet';
+import { MapContainer, TileLayer, Marker } from 'react-leaflet';
+import L from 'leaflet';
 import Loader from '../Loader/Loader';
-import Icon from '../../images/icon-location.svg'
+import Icon from '../../images/icon-location.svg';
 import './Map.css';
+
+const LeafIcon = L.Icon.extend({
+  options: {}
+})
+
+const blackMarker = new LeafIcon({
+  iconUrl: Icon,
+  iconAnchor: [25, 60]
+})
 
 function Map({ ipInfo, loading, error }) {
 
@@ -23,8 +33,10 @@ function Map({ ipInfo, loading, error }) {
             attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
             url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
           />
-          {/* <ZoomControl position='bottomright' /> */}
-          <Marker position={arr}>
+          <Marker
+            position={arr}
+            icon={blackMarker}
+          >
           </Marker>
         </MapContainer>
       }

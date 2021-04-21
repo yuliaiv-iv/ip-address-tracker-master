@@ -9,9 +9,10 @@ function Footer() {
         className='footer__link'
         href="https://www.frontendmentor.io?ref=challenge"
         target="_blank"
+        rel="noreferrer"
       > Frontend Mentor
       </a>. 
-      Coded by <a className='footer__link' href="https://github.com/yuliaiv-iv" target="_blank">Yulia Ivanova</a>
+      Coded by <a className='footer__link' href="https://github.com/yuliaiv-iv" rel="noreferrer" target="_blank">Yulia Ivanova</a>
     </footer>
   )
 }
